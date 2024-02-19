@@ -12,3 +12,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let time = 12560;
+const h = Math.round(time / 3600) // 3600 secondi in 1 ora
+const m = Math.round((time - h * 3600) / 60) // 60 secondi in 1 minuto
+const s = Math.round(time - h * 3600 - m * 60)
+
+console.log(h + ' ore, ' + m + ' minuti, ' + s + ' secondi.');

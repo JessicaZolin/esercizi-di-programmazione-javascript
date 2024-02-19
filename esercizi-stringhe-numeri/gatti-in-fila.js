@@ -17,3 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let gatti = 44;
+let n = 6;  //gatti per fila
+const x = Math.ceil(gatti / n);  // numero file
+const y = n * x - gatti;  //gatti mancanti
+
+console.log('numero di file = ' + x + ', gatti mancanti = ' + y);

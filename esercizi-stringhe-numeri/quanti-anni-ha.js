@@ -11,3 +11,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+
+let AnnoCorrente = 2018
+let AnnoNascita = 1991
+let Obiettivo = 100
+const Età = AnnoCorrente - AnnoNascita
+const AnniMancanti = Obiettivo - Età
+
+console.log('età = ' + Età + ' , anni mancanti = ' + AnniMancanti);
